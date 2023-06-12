@@ -1,0 +1,24 @@
+{
+  "name": "highschool-api",
+  "version": "1.0.0",
+  "description": "A highschool API that will register teachers, students and staff. The API should show the teacher's ranks, the student's reporting time and the non-teaching staff duties",
+  "main": "index.js",
+  "scripts": {
+    "start": "index",
+    "server": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "cassandra18"
+  },
+  "author": "Cassandra",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.4"
+  }
+}
